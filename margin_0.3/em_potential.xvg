@@ -1,0 +1,29 @@
+# This file was created Thu Apr  2 23:09:00 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2026.0 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/ncku-che/ErnestHo_NCKU/Git/opc_relaxation
+# Command line:
+#   gmx energy -f em.edr -o em_potential.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Potential"
+    0.000000  1682.777588
+    1.000000  457.363953
+    2.000000  -972.597595
+    3.000000  -2360.465088
+    4.000000  -3439.543213

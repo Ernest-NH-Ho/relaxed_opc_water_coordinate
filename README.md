@@ -34,6 +34,15 @@ Box margin = 0.15 nm
   <img src="margin_0.15/npt_temperature.png" width="32%" />
 </p>
 
+Box margin = 0.3 nm
+<p>
+  <img src="margin_0.3/em_potential.png" width="32%" />
+  &nbsp;
+  <img src="margin_0.3/npt_pressure.png" width="32%" />
+  &nbsp;
+  <img src="margin_0.3/npt_temperature.png" width="32%" />
+</p>
+
 
 ## Email
 ```
