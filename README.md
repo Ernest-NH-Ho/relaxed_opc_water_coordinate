@@ -24,7 +24,6 @@ Box margin = 0 nm
   &nbsp;
   <img src="margin_0/npt_temperature.png" width="32%" />
 </p>
----------------------------------------
 
 Box margin = 0.15 nm
 <p>
@@ -34,7 +33,6 @@ Box margin = 0.15 nm
   &nbsp;
   <img src="margin_0.15/npt_temperature.png" width="32%" />
 </p>
----------------------------------------
 
 
 ## Email
