@@ -3,7 +3,7 @@ A pre-relaxed ```opc.gro``` containing 216 water molecules is provided.
 
 ## For lazy people
 ```bash
-cp opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb.ff/
+cp margin_0/opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb.ff/
 ```
 
 ## Relaxation procedures
