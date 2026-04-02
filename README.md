@@ -16,7 +16,7 @@ cp margin_0/opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb.ff/
 7. Finally, ```npt_300K.gro``` is identical to ```opc.gro```
 
 ---------------------------------------
-Box margin = 0 nm
+Box margin = 0 nm (Mean Absolute Pressure = 609.6 bar)
 <p>
   <img src="margin_0/em_potential.png" width="32%" />
   &nbsp;
@@ -25,7 +25,7 @@ Box margin = 0 nm
   <img src="margin_0/npt_temperature.png" width="32%" />
 </p>
 
-Box margin = 0.15 nm
+Box margin = 0.15 nm (Mean Absolute Pressure = 526.3 bar)
 <p>
   <img src="margin_0.15/em_potential.png" width="32%" />
   &nbsp;
@@ -34,7 +34,7 @@ Box margin = 0.15 nm
   <img src="margin_0.15/npt_temperature.png" width="32%" />
 </p>
 
-Box margin = 0.3 nm
+Box margin = 0.3 nm (Mean Absolute Pressure = 210.5 bar)
 <p>
   <img src="margin_0.3/em_potential.png" width="32%" />
   &nbsp;
