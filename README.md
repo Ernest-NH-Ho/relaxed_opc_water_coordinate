@@ -1,9 +1,9 @@
 ## Purpose
 A pre-relaxed ```opc.gro``` containing 216 water molecules is provided.
 
-## Lazy people
+## For lazy people
 ```bash
-cp opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb/
+cp opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb.ff/
 ```
 
 ## Relaxation procedures
