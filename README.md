@@ -16,11 +16,11 @@ cp opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb.ff/
 7. Finally, ```npt_300K.gro``` has identical content as ```opc.gro```
 
 <p>
-  <img src="plots/em_potential.png" width="33%" />
+  <img src="plots/em_potential.png" width="32%" />
   &nbsp;
-  <img src="plots/npt_pressure.png" width="33%" />
+  <img src="plots/npt_pressure.png" width="32%" />
   &nbsp;
-  <img src="plots/npt_temperature.png" width="33%" />
+  <img src="plots/npt_temperature.png" width="32%" />
 </p>
 
 ## Email
