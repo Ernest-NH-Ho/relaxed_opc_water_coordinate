@@ -1,0 +1,42 @@
+;
+;	File 'topol.top' was generated
+;	By user: ncku-che (1000)
+;	On host: ncku-che-System-Product-Name
+;	At date: Thu Apr  2 17:35:38 2026
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2026.0 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx
+;	Data prefix:  /usr/local/gromacs
+;	Working dir:  /home/ncku-che/ErnestHo_NCKU
+;	Command line:
+;	  gmx pdb2gmx -f opc.pdb -o opc.gro -water opc -ff amber19sb -ter -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber19sb.ff/forcefield.itp"
+
+; Include water topology
+#include "amber19sb.ff/opc.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber19sb.ff/ions_opc.itp"
+
+[ system ]
+; Name
+216 TIP4P Water Molecules Equilibrated for 20 ps at 300 K
+
+[ molecules ]
+; Compound        #mols
+SOL               216
