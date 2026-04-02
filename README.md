@@ -15,12 +15,22 @@ cp opc.gro /usr/local/gromacs/share/gromacs/top/amber19sb.ff/
 6. NPT for 1 ns
 7. Finally, ```npt_300K.gro``` is identical to ```opc.gro```
 
+Box margin = 0 nm
 <p>
-  <img src="plots/em_potential.png" width="32%" />
+  <img src="margin_0/em_potential.png" width="32%" />
   &nbsp;
-  <img src="plots/npt_pressure.png" width="32%" />
+  <img src="margin_0/npt_pressure.png" width="32%" />
   &nbsp;
-  <img src="plots/npt_temperature.png" width="32%" />
+  <img src="margin_0/npt_temperature.png" width="32%" />
+</p>
+
+Box margin = 0.15 nm
+<p>
+  <img src="margin_0.15/em_potential.png" width="32%" />
+  &nbsp;
+  <img src="margin_0.15/npt_pressure.png" width="32%" />
+  &nbsp;
+  <img src="margin_0.15/npt_temperature.png" width="32%" />
 </p>
 
 ## Email

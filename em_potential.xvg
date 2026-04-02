@@ -1,15 +1,15 @@
-# This file was created Thu Apr  2 17:52:13 2026
+# This file was created Thu Apr  2 22:31:50 2026
 # Created by:
 #                      :-) GROMACS - gmx energy, 2026.0 (-:
 # 
 # Executable:   /usr/local/gromacs/bin/gmx
 # Data prefix:  /usr/local/gromacs
-# Working dir:  /home/ncku-che/ErnestHo_NCKU
+# Working dir:  /home/ncku-che/ErnestHo_NCKU/Git/opc_relaxation
 # Command line:
 #   gmx energy -f em.edr -o em_potential.xvg
 # gmx energy is part of G R O M A C S:
 #
-# Great Red Owns Many ACres of Sand 
+# Gromacs Runs One Microsecond At Cannonball Speeds
 #
 @    title "GROMACS Energies"
 @    xaxis  label "Time (ps)"
@@ -22,8 +22,8 @@
 @ legend 0.78, 0.8
 @ legend length 2
 @ s0 legend "Potential"
-    0.000000  1682.745239
-    1.000000  457.816101
-    2.000000  -972.904602
-    3.000000  -2361.540527
-    4.000000  -3439.865723
+    0.000000  1681.906982
+    1.000000  456.840027
+    2.000000  -973.373230
+    3.000000  -2360.654053
+    4.000000  -3439.294922

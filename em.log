@@ -47,8 +47,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2026.0
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
-Working dir:  /home/ncku-che/ErnestHo_NCKU
-Process ID:   1440936
+Working dir:  /home/ncku-che/ErnestHo_NCKU/Git/opc_relaxation
+Process ID:   1463621
 Command line:
   gmx mdrun -v -deffnm em -nt 24 -nb gpu
 
@@ -182,7 +182,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = 1003871727
+   ld-seed                        = -4206723
    emtol                          = 1000
    emstep                         = 0.01
    niter                          = 20
@@ -218,9 +218,9 @@ Input Parameters:
    DispCorr                       = No
    table-extension                = 1
    fourierspacing                 = 0.12
-   fourier-nx                     = 25
-   fourier-ny                     = 25
-   fourier-nz                     = 25
+   fourier-nx                     = 28
+   fourier-ny                     = 28
+   fourier-nz                     = 28
    pme-order                      = 4
    ewald-rtol                     = 1e-05
    ewald-rtol-lj                  = 0.001
@@ -425,7 +425,7 @@ https://doi.org/10.1002/jcc.540130805
 
 Note that activating steepest-descent energy minimization via the integrator .mdp option and the command gmx mdrun may be available in a different form in a future version of GROMACS, e.g. gmx minimize and an .mdp option.
 Initiating Steepest Descents
-Started Steepest Descents on rank 0 Thu Apr  2 17:50:58 2026
+Started Steepest Descents on rank 0 Thu Apr  2 22:31:37 2026
 
 
 Steepest Descents:
@@ -436,40 +436,40 @@ Steepest Descents:
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    2.08848e+03   -1.26584e+03    8.60108e+02    1.68275e+03    9.12330e+03
+    2.08848e+03   -1.26584e+03    8.59271e+02    1.68191e+03    6.83757e+03
 
            Step           Time
               1        1.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.72080e+03   -2.02974e+03    7.66748e+02    4.57816e+02    7.37084e+03
+    1.72073e+03   -2.03002e+03    7.66125e+02    4.56840e+02    5.52404e+03
 
            Step           Time
               2        2.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.44666e+03   -3.06674e+03    6.47177e+02   -9.72905e+02    5.63828e+03
+    1.44666e+03   -3.06686e+03    6.46828e+02   -9.73373e+02    4.22603e+03
 
            Step           Time
               3        3.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.28215e+03   -4.17095e+03    5.27260e+02   -2.36154e+03    4.19059e+03
+    1.28223e+03   -4.17003e+03    5.27139e+02   -2.36065e+03    3.14212e+03
 
            Step           Time
               4        4.00000
 
    Energies (kJ/mol)
         LJ (SR)   Coulomb (SR)   Coul. recip.      Potential Pressure (bar)
-    1.19791e+03   -5.07328e+03    4.35505e+02   -3.43987e+03    3.18072e+03
+    1.19771e+03   -5.07232e+03    4.35317e+02   -3.43929e+03    2.38471e+03
 
 
 Steepest Descents converged to Fmax < 1000 in 5 steps
-Potential Energy  = -3.4398657e+03
-Maximum force     =  8.8399365e+02 on atom 722
-Norm of force     =  2.7305985e+02
-Finished mdrun on rank 0 Thu Apr  2 17:50:58 2026
+Potential Energy  = -3.4392949e+03
+Maximum force     =  8.8215424e+02 on atom 722
+Norm of force     =  2.7308618e+02
+Finished mdrun on rank 0 Thu Apr  2 22:31:37 2026
 
